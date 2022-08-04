@@ -2,10 +2,10 @@
 This is a final project for the WEB system development course.
 This is a pizzeria order management website.
 It has:
-User login + user management
-Making an order + managing orders
-Adding a product to the menu
-Adding a user to the system
+User login + user management, 
+Making an order + managing orders, 
+Adding a product to the menu, 
+Adding a user to the system, 
 Product search by category
 and more.
 
