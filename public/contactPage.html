@@ -1,0 +1,38 @@
+<div id="body" class="contact">
+    <div class="header">
+        <div>
+            <h1>Contact</h1>
+        </div>
+    </div>
+    <div class="body">
+        <div>
+            <div>
+                <img src="photos/login3.png" alt="">
+                <h1>The College of Management Academic Studies</h1>
+                <p>If you have any question or request we will be happy to answer you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <h1>personal details</h1>
+            <form action="/NewContact" method="get">
+                <input type="text" name="Name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+                <input type="text" name="Email" value="Email" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
+                <input type="text" name="Subject" value="Subject" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
+                <textarea name="Meassage" cols="50" rows="7">Share your thoughts</textarea>
+                <input type="submit" value="Send" id="submit" onclick="myAlert()">
+            </form>
+        </div>
+        <div class="section">
+            <h1>WE’D LOVE TO HEAR FROM YOU.</h1>
+            <p>Our customers are our priority and we will be happy to help you.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function myAlert() {
+      alert("your message has send!");
+    }
+    </script>

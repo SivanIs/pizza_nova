@@ -1,0 +1,79 @@
+<!doctype html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza Nova by may&sivan</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script src="js/mobile.js" type="text/javascript"></script>
+	
+
+	<script>
+		//isNew=true
+	</script>
+</head>
+<body onload="fetchPage('homePage.html') ">
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><img src="photos/newlogo!!!2.PNG" alt=""></a>
+				<ul id="navigation">
+					<li class="selected">
+						<a onclick="fetchPage('homePage.html')" >Home</a>
+					</li>
+					<li class="menu">
+						<a onclick="fetchPage('aboutPage.html')">About</a>
+					</li>
+					<li class="menu">
+						<a onclick="fetchPage('menu.html');showTable()">Menu</a>
+					</li>
+					<li>
+						<a onclick="fetchPage('contactPage.html')">Contact</a>
+					</li>
+					<!-- <li>
+						<a onclick="fetchPage('cart.html');showCart()">shopping Cart</a>
+					</li> -->
+					<li>
+						<a onclick="fetchPage('login.html')">Login</a>
+					</li>
+					<li>
+						<a onclick="fetchPage('managerPage.html');getOrder();getUser()">My profile</a>
+					</li>
+					<li class="shopping1" id="avielShopping">
+					<button class="button-shopping" onclick="fetchPage('cart.html');showCart()">
+			  		<img src="photos/shopping3.png" width="35" />
+					</button>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+	
+		<!--כאן היה התוכן הקודם-->
+		
+		<div id="mainContent" class="home">
+			פה נשים מה שבא לנו
+		</div>
+		<div id="footer">
+			<div>
+				<div class="connect">
+					<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
+					<a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
+					<a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
+					<a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+				</div>
+				<p>&copy; Pizza Nova 2022 by may&sivan</p>
+			</div>
+		</div>
+	</div>
+	<script src="./loginScripts.js"></script>
+	<script src="./menuScipts.js"></script>
+	<script src="./shoppingCartScript.js"></script>
+	<script src="./checkoutScripts.js"></script>
+	<script src="./managerScripts.js"></script>
+	<script src="./thankYou.html"></script>
+</body>
+</html>

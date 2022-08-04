@@ -1,0 +1,41 @@
+<body id="managerPage" >
+<!-- manager add product to the menu -->
+    <form action="/addProduct" method="get" >
+    <h5 id=titleAdd> Add product</h5>
+    <div id="insertOne">
+        product name: <input type="text" name="name" >
+        product price: <input type="text" name="price" > 
+        product image: <input type="text" name="img" > </br>
+        product category: <input type="text" name="category" placeholder="pizza/pasta/beverages" >
+        <button id="orderButton" type="submit">Add</button>
+    </div>   
+    </form>
+<!-- manager manage the orders -->
+    <h5 id=titleAdd> Orders</h5>
+    
+    <div id="myData"></div>
+
+<!-- manager create users -->
+<form action="/NewUser" method="get" >
+    <h5 id=titleAdd>Add new user</h5>
+    <div id="insertOne">
+        User name: <input type="text" name="userName" >
+        User password: <input type="text" name="password" > 
+        Repeat password: <input type="text" name="repeatPassword" > </br>
+        User email: <input type="text" name="email" > 
+        Type:<input type="text" name="type" >
+        <button type="submit" id="orderButton">Add</button>
+    </div>    
+    </form>
+
+    <!-- manager manage users -->
+    <h5 id=titleAdd>Users</h5>
+    
+    <div id="myUsers"></div>
+
+</body>
+
+<script src="./loginScripts.js"></script>
+<script src="./menuScipts.js"></script>
+<script src="./managerScripts.js"></script>
+
